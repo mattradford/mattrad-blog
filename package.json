@@ -12,9 +12,9 @@
     "url": "git://github.com/11ty/eleventy-base-blog.git"
   },
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "Matt Radford",
+    "email": "matt@mattrad.uk",
+    "url": "https://mattrad.uk/"
   },
   "license": "MIT",
   "bugs": {
@@ -34,6 +34,6 @@
     "gulp-clean": "^0.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-serve": "^1.4.0",
-    "gulp-shell": "^0.6.5",
+    "gulp-shell": "^0.6.5"
   }
 }

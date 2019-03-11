@@ -1,7 +1,13 @@
 <ol reversed class="postlist" style="counter-reset: start-from {{ postslist.length + 1 }}">
+{% set i = 0 %}
 {% for post in postslist | reverse %}
-  {% set currentYear = post.date | htmlYearString %}
-  {{ currentYear }}
+  {% set storedYear = post.date | htmlYearString %}
+  {% set currentYear = post.date  | htmlYearString %}
+  {% if (storedYear == currentYear) and (i == 0) %}
+    {{ currentYear }}
+  {% else %}
+    {% set i= ++i %}
+  {% endif %}
   <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
     <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
     <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | shortDate }}</time>
