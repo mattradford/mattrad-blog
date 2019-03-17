@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-base-blog",
+  "name": "mattrad-blog",
   "version": "5.0.0",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "description": "My personal website, forked from Eleventy base blog.",
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
@@ -30,6 +30,7 @@
     "markdown-it-anchor": "^5.0.2"
   },
   "dependencies": {
+    "eleventy-plugin-reading-time": "0.0.1",
     "gulp": "^4.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-sass": "^4.0.2",

@@ -3,6 +3,7 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 <h1>{{ title }}</h1>
+<span>About {{   content | readingTime }} reading time</span>
 
 {{ content | safe }}
 
