@@ -15,4 +15,8 @@ _then_
 _then_
 4. Web developer
 
+Hey, I just found this in my code:
+
+`<body bgcolor="#000000" text="#FFFFFF" link="#FF0000" vlink="#0000FF">`
+
 Still trying.
