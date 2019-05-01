@@ -1,8 +1,8 @@
 ---
 title: 'Security is a process – @vitalethomas #wcldn'
 date: 2018-04-14
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 <img src="https://mattrad.uk/wp-content/uploads/2018/04/img_2806.jpg" class="wp-image-849 size-full" height="3024" width="4032" srcset="https://mattrad.local/wp-content/uploads/2018/04/img_2806.jpg 4032w, https://mattrad.local/wp-content/uploads/2018/04/img_2806-300x225.jpg 300w, https://mattrad.local/wp-content/uploads/2018/04/img_2806-768x576.jpg 768w, https://mattrad.local/wp-content/uploads/2018/04/img_2806-1024x768.jpg 1024w" sizes="(max-width: 4032px) 100vw, 4032px" />
 

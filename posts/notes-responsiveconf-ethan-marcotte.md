@@ -1,8 +1,8 @@
 ---
 title: 'Notes from #responsiveconf – Ethan Marcotte'
 date: 2014-06-28
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 ### Laziness in the Time of Responsive Design
 

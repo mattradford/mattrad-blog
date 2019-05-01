@@ -1,8 +1,8 @@
 ---
 title: 'Gutenberg for Designers #wcldn'
 date: 2018-04-14
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 Nicola Campbell, 93 Digital
 

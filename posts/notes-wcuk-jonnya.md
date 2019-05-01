@@ -1,8 +1,8 @@
 ---
 title: 'Notes from #wcuk – @jonnya'
 date: 2014-07-12
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 ### Designing with Data
 

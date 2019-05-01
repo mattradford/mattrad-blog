@@ -1,8 +1,8 @@
 ---
 title: 'Slides from my #wcuk talk – DRY Theme Development'
 date: 2014-07-12
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 Any questions or things I misunderstood, please email or tweet!
 

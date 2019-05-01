@@ -1,8 +1,8 @@
 ---
 title: 'Developing your story – Lee Jackson #wcldn'
 date: 2018-04-14
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 ### A few years ago:
 

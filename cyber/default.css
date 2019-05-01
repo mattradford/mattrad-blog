@@ -1,0 +1,79 @@
+/* Poor man's reset */
+html,body{margin:0;padding:0}
+
+/* Main body styling */
+body{font: 100% Verdana,Arial,sans-serif; text-align: center;background: #FFFFFF;padding-bottom:20px; }
+
+/* General element styling */
+p{margin-top:0}
+h1,h2,h3{font: normal normal 1.8em "Trebuchet MS",Arial,sans-serif; }
+h2{font-size:1.6em; }
+h3{font-size:1.3em; }
+
+
+/* Containers */
+
+
+/* Header block */
+div#header{width:100%;overflow:hidden;background: #595D66; border-bottom: 4px solid red; }
+div#header h1,div#menu{width:770px;margin:0 auto;text-align:left; }
+div#header h1{padding: 30px 0 10px;color: #FFF; font-size: 220%; }
+
+/* Header menu */
+ul#nav,ul#nav li{list-style-type:none;margin:0;padding:0; }
+ul#nav{float:right;font-size: 0.8em; }
+ul#nav li{float:left;margin-left: 3px;text-align: center; }
+ul#nav a{float:left;width: 95px;padding: 5px 0;background: #757D88;text-decoration:none;color: #FFf; }
+ul#nav a:hover{background: #E77471;color: #fff; }
+ul#nav li.activelink a,ul#nav li.activelink a:hover{background: #FF0000;color: #FFFFFF; }
+
+/* Main container and content blocks */
+div#container{width:770px;margin:0 auto 10px;padding:20px 0 10px;text-align:left;background:#FFF; }
+div#content{float:left;display:inline;width:560px;margin:0 0 10px 0px; font-size:0.875em; }
+
+div#content h2{margin: 10px 0;color: #333333; font-weight: bold; }
+div#content h3{margin: 10px 0;color: #333333; }
+
+/* Sidebar block */
+div#side{float:right;display:inline;width: 180px;background:#E55451; margin:0 0px 10px 0; color: #FFF; }
+div#side p{margin:5px 0 10px;padding: 0 10px; font-size:0.875em; }
+div#side div{margin: 0 0 10px;padding: 10px 0; font-size:0.875em; }
+
+/* Footer */
+div#footer{clear:both;width:750px;margin:0 10px 0;padding: 10px 0;
+    background: #ffffff;color: #000000;text-align:center; font: 0.8em Verdana,Arial,sans-serif; border-top: 1px dotted red; }
+div#footer p{margin:0; }
+
+/* Index container only */
+div#indexcontainer{width:770px;margin:0 auto 10px;padding:20px 0 10px;text-align:center;background:#FFF; }
+
+/* iFrame alignment for photos page */
+div.iframe {text-align: center; float:right; display:inline;}
+
+
+/* Links */
+
+
+/* Website title link */
+a.title,a.title:active,a.title:visited{color: #FFF; text-decoration: none; }
+a.title:hover{color: #FFF; background: #E77471; }
+
+/* Sidebar links */
+a.side,a.side:active,a.side:visited{color: #FFF; text-decoration: underline; }
+a.side:hover{color: #E55451; background: #FFF; }
+
+/* Main content links */
+a.content,a.content:active,a.content:visited{color: red; text-decoration: underline; }
+a.content:hover{color: #fff; background: #E55451; }
+
+/* Footer links */
+a.footer,a.footer:active,a.footer:visited{color: red; text-decoration: underline; }
+a.footer:hover{color: #fff; background: #E55451; }
+
+
+/* Other */
+
+img.bottommargin{margin-bottom: 10px;}
+
+
+

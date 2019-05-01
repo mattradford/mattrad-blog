@@ -1,8 +1,8 @@
 ---
 title: Embedding an Apple Map on a WordPress website using Mapkit JS
 date: 2018-06-12
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 Apple announced MapKit JS at WWDC recently, and there are already some great demos available:
 

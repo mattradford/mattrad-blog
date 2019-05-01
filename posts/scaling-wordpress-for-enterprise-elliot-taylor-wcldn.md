@@ -1,8 +1,8 @@
 ---
 title: 'Scaling WordPress for Enterprise – Elliot Taylor #wcldn'
 date: 2018-04-14
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 WordPress is Enterprise-ready, see:
 

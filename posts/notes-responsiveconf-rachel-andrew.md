@@ -1,8 +1,8 @@
 ---
 title: 'Notes from #responsiveconf – Rachel Andrew'
 date: 2014-06-28
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 ### Css Grid Layout
 

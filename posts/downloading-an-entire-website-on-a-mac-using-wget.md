@@ -2,8 +2,8 @@
 title: Downloading an entire website on a Mac using wget
 date: 2014-04-28
 description: I recently had to take a copy of a client’s website before they transferred from another provider. It was running an old copy of Joomla, and getting backend access proved difficult. Solution? Copy the whole site using wget.
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 I recently had to take a copy of a client&#8217;s website before they transferred from another provider. It was running an old copy of Joomla, and getting backend access proved difficult. So we opted to grab a static copy of the site and keep that live until we had their new WordPress website ready.
 

@@ -2,8 +2,8 @@
 title: WordPress and data collection
 date: 2018-02-26
 description: What does the software we use actually do, and does it work in our favour?
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 What does the software we use actually do, and does it work in our favour?
 

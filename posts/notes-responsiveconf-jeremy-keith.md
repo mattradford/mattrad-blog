@@ -1,8 +1,8 @@
 ---
 title: 'Notes from #responsiveconf – Jeremy Keith'
 date: 2014-06-28
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 Boba Fett would just shoot Batman in the face.
 

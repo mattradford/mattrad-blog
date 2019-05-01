@@ -1,39 +1,42 @@
 const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const readingTime = require('eleventy-plugin-reading-time');
+const readingTime = require("eleventy-plugin-reading-time");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.setDataDeepMerge(true);
-
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
+  // Dates
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+      "d LLLL yyyy"
+    );
   });
   eleventyConfig.addFilter("shortDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL");
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("dd LLL");
+  });
+  eleventyConfig.addFilter("yearDate", dateObj => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy");
+  });
+  eleventyConfig.addFilter("htmlDateString", dateObj => {
+    return DateTime.fromJSDate(dateObj).toFormat("yyyy-LL-dd");
+  });
+  eleventyConfig.addFilter("htmlYearString", dateObj => {
+    return DateTime.fromJSDate(dateObj).toFormat("yyyy");
   });
 
-
-//   eleventyConfig.addFilter('pprint', function(obj) {
-//     return obj;
-// });
+  //   eleventyConfig.addFilter('pprint', function(obj) {
+  //     return obj;
+  // });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd');
-  });
-  eleventyConfig.addFilter('htmlYearString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toFormat('yyyy');
-  });
-
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {
-    if( n < 0 ) {
+    if (n < 0) {
       return array.slice(n);
     }
 
@@ -42,8 +45,22 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
 
+  eleventyConfig.addCollection("myCustomSort", function(collection) {
+    return collection.getAllSorted();
+  });
+
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("docs");
+
+  eleventyConfig.addFilter("jsonify", function(variable) {
+    return JSON.stringify(variable);
+  });
+
+  // Dirs to directly add to the output
+  eleventyConfig.addPassthroughCopy("hci");
+  eleventyConfig.addPassthroughCopy("ozdiary");
+  eleventyConfig.addPassthroughCopy("cyber");
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
@@ -59,17 +76,13 @@ module.exports = function(eleventyConfig) {
     permalinkSymbol: "#"
   };
 
-  eleventyConfig.setLibrary("md", markdownIt(options)
-    .use(markdownItAnchor, opts)
+  eleventyConfig.setLibrary(
+    "md",
+    markdownIt(options).use(markdownItAnchor, opts)
   );
 
   return {
-    templateFormats: [
-      "md",
-      "njk",
-      "html",
-      "liquid"
-    ],
+    templateFormats: ["md", "njk", "html", "liquid"],
 
     // If your site lives in a different subdirectory, change this.
     // Leading or trailing slashes are all normalized away, so don’t worry about it.

@@ -1,8 +1,8 @@
 ---
 title: 'Notes from #responsiveconf – Stephanie Rieger'
 date: 2014-06-28
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 ### The Future of Media Queries
 

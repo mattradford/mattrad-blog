@@ -1,8 +1,8 @@
 ---
 title: Add a guest network using Gargoyle on a TP-Link TL-WDR3600
 date: 2014-06-23
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 I wanted to add a guest network to my router, which is a TP-Link WDR3600 running Gargoyle firmware. I&#8217;ve been able to add one using the following commands, and ensure it&#8217;s isolated from the rest of my wireless and wired networks.
 

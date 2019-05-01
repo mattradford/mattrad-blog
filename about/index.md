@@ -1,10 +1,18 @@
 ---
-layout: layouts/post.njk
-title: About Me
+layout: layouts/page.njk
+title: About
 tags:
   - nav
 navtitle: About
 templateClass: tmpl-post
 ---
 
-I am a person that writes stuff.
+1. n00b
+_then_
+2. Webmaster
+_then_
+3. Web designer
+_then_
+4. Web developer
+
+Still trying.

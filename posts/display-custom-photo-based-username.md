@@ -1,8 +1,8 @@
 ---
 title: Display a custom photo based on username
 date: 2014-08-12
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 For this particular WordPress project, I needed to create a custom meta data field for users with Advanced Custom Fields, to allow them to upload their profile photo. I then created a team page, and wanted an easy way for them to add their photo to their team listing.
 

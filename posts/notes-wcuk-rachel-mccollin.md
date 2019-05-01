@@ -1,8 +1,8 @@
 ---
 title: 'Notes from #wcuk – Rachel McCollin'
 date: 2014-07-12
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 Created admin plugin for [edupress][1].  
 Removed all meta boxes from WP dashboard &#8211; in fact, just removed standard WP dashboard

@@ -1,19 +1,11 @@
-<ol reversed class="postlist" style="counter-reset: start-from {{ postslist.length + 1 }}">
+<ol reversed class="postlist">
 {% for post in postslist | reverse %}
   <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-    {% if post.data.first_in_year == true %}
-    <h3>hell yeah</h3>
-    {% endif %}
+    {{ post.data.date | yearDate }}
     {% if post.data.external_url %}
     <a href="{{ post.data.external_url | url }}" class="postlist-link">
     {% else %}
     <a href="{{ post.url | url }}" class="postlist-link">{% endif %}{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | shortDate }}</time>
-    {% for tag in post.data.tags %}
-      {%- if tag != "posts" -%}
-      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-      {%- endif -%}
-    {% endfor %}
   </li>
 {% endfor %}
 </ol>

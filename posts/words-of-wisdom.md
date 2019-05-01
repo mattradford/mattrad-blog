@@ -1,8 +1,8 @@
 ---
 title: Words of Wisdom from @adactio
 date: 2016-01-22
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 Jeremy Keith&#8217;s &#8220;1 piece of advice around building responsively&#8221;, from this week&#8217;s interview in [responsivedesign.is][1]:
 

@@ -1,8 +1,8 @@
 ---
 title: 'Notes from #responsiveconf – Ida Aalen'
 date: 2014-06-27
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 &#8220;The Core Model&#8221;
 

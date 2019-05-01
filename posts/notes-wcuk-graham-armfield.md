@@ -1,8 +1,8 @@
 ---
 title: 'Notes from #wcuk – Graham Armfield'
 date: 2014-07-12
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 ### &#8220;A Beginners Guide to Web Accessibility&#8221;
 

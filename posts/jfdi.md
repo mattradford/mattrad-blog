@@ -2,7 +2,7 @@
 title: JFDI
 description: Procrastination over. Time to start writing again.
 date: 2014-04-25
-layout: layouts/post.njk
+
 ---
 This morning I read [an excellent post](http://www.groovehq.com/blog/getting-to-50k) by Alex Turnbull of Groove. It reminded me that blogging is important in establishing reputation. If I’m going to claim I’m a WordPress expert, then I’d better start demonstrating that. I want to document the challenges that I face (which clients mostly never hear about) in delivering websites of which I can be proud to say, “I made that”.
 

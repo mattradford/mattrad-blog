@@ -1,8 +1,8 @@
 ---
 title: 'Notes from #responsiveconf – Oliver Reichenstein'
 date: 2014-06-28
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 &#8220;Information Architecture is a straightjacket&#8221;
 

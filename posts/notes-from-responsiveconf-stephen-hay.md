@@ -1,8 +1,8 @@
 ---
 title: 'Notes from #responsiveconf – Stephen Hay'
 date: 2014-06-27
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 [<img src="http://mattrad.uk/wp-content/uploads/2014/06/20140627-113702-41822926.jpg" alt="20140627-113702-41822926.jpg" class="alignnone size-full" />][1]
 

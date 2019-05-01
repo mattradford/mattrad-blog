@@ -1,8 +1,7 @@
 ---
 title: '48/48/48 – Adam Walker #wcldn'
 date: 2018-04-14
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
 ---
 Event for marketing pros to build 48 websites for 48 charities in 48 hours
 

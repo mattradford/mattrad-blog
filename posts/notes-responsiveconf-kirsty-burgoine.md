@@ -1,8 +1,7 @@
 ---
 title: 'Notes from #responsiveconf – Kirsty Burgoine'
 date: 2014-06-28
-upermalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
 ---
 ### A Question of Deliverables and Other Stuff
 

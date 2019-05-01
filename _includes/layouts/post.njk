@@ -3,8 +3,11 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 <h1>{{ title }}</h1>
-<span>About {{   content | readingTime }} reading time</span>
+
+{% if original %}
+    <em>Content originally published in <time class="postlist-date"">{{ original }}</time></em>
+{% else %}
+	<em>Published on <time class="postlist-date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></em>
+{% endif %}
 
 {{ content | safe }}
-
-<p><a href="{{ '/' | url }}">← Home</a></p>

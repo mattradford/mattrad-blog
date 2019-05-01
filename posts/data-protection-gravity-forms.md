@@ -1,8 +1,8 @@
 ---
 title: Data protection and Gravity Forms
 date: 2014-05-23
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 Gravity Forms is a great solution for building all sort of forms within WordPress. Every entry is stored under Forms &#8211;> Entries for easy retrieval. But this means that if the website or server is compromised, then data can be stolen. For one website I manage, I needed a way to get rid of any submitted data from Gravity Forms.
 

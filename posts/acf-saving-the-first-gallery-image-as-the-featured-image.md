@@ -1,8 +1,9 @@
 ---
 title: ACF – Saving the first gallery image as the featured image
 date: 2015-08-27
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
+postyear: 2016
 ---
 I decided to use the Advanced Custom Fields Gallery field to show some images on a specific post type. Easy enough, but I wanted to set the featured image from the first gallery image, as there&#8217;s a performance hit involved in retrieving all those gallery arrays on, say an archive or search results page. A quick Googling and I found some code that almost did it:
 

@@ -1,8 +1,8 @@
 ---
 title: 'Notes from #wcuk – Mark Wilkinson'
 date: 2014-07-12
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 ### Extensible Plugins
 

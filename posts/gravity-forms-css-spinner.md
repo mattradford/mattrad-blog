@@ -1,8 +1,8 @@
 ---
 title: Gravity Forms CSS spinner
 date: 2016-06-17
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 When you submit a form the Gravity Forms default spinner appears. It is a gif, which doesn&#8217;t look great when used on anything but a white background, and isn&#8217;t retina-friendly. Let&#8217;s sort that out.
 

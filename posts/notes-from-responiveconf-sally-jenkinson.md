@@ -1,8 +1,8 @@
 ---
 title: 'Notes from #responsiveconf – Sally Jenkinson'
 date: 2014-06-27
-permalink: "{{title | slug}}/index.html"
-layout: layouts/post.njk
+eleventyExcludeFromCollections: true
+
 ---
 &#8220;More than media queries&#8221;
 
