@@ -7,7 +7,7 @@ navtitle: About
 templateClass: tmpl-post
 ---
 
-1. n00b
+1. newbie
 _then_
 2. Webmaster
 _then_
