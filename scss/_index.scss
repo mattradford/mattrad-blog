@@ -44,7 +44,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  //   border-bottom: 1px dashed var(--lightgray);
 }
 header:after {
   content: "";
@@ -202,4 +202,11 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+.open-design {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
