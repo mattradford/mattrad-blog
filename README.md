@@ -1,28 +1,27 @@
-# eleventy-base-blog
+# mattrad.uk
 
-A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
+This website was originally forked from [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog), a starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
 
-[![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
+I'm redesigning the website in the open, posting what I learn as I go. The website is hosted on [Netlify](https://www.netlify.com/). 
 
-## Demos
+## Get your own Eleventy web site on Netlify
 
-* [Netlify](https://eleventy-base-blog.netlify.com/)
-* [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)—seriously, just click OK a few times and it’s live—Netlify is amazing.
-* [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
+It's very easy. Create a site based on [mattrad.uk](https://app.netlify.com/start/deploy?repository=https://github.com/mattradford/mattrad-uk) or [eleventy-base-blog]((https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
 
-## Getting Started
+Seriously, just click OK a few times and it’ll be live. Netlify is quite amazing.
+
+## Getting started with a copy of this repository
 
 ### 1. Clone this repository:
 
 ```
-git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
+git clone https://github.com/mattradford/mattrad-uk.git your-site-name
 ```
-
 
 ### 2. Navigate to the directory
 
 ```
-cd my-blog-name
+cd your-site-name
 ```
 
 Specifically have a look at `.eleventy.js` to see if you want to configure any Eleventy options differently.
