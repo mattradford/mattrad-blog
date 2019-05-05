@@ -6,7 +6,7 @@ I'm redesigning the website in the open, posting what I learn as I go. The websi
 
 ## Get your own Eleventy web site on Netlify
 
-It's very easy. Create a site based on [mattrad.uk](https://app.netlify.com/start/deploy?repository=https://github.com/mattradford/mattrad-uk) or [eleventy-base-blog](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
+It's very easy. Click one of these links to create a site based on [mattrad.uk](https://app.netlify.com/start/deploy?repository=https://github.com/mattradford/mattrad-uk) or [eleventy-base-blog](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
 
 Seriously, just click OK a few times and it’ll be live. Netlify is quite amazing.
 
