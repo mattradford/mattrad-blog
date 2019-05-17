@@ -1,5 +1,5 @@
 ---
-title: Words of wisdom from %40adactio
+title: Words of wisdom from @adactio
 date: 2016-01-22
 ---
 Jeremy Keith’s one piece of advice about building a website to be responsive, from this interview in [responsivedesign.is](https://responsivedesign.is):
