@@ -9,8 +9,10 @@ _Staging_ used to mean you'd get a installname.staging.wpengine.com copy of the 
 
 We're solving this at [work](https://www.10degrees.uk) with process and good communications, but I also want to remove the confusion by hiding "Legacy Staging" from within the WordPress dashboard, so everyone's clear that we're talking about the staging _environment_, not a legacy copy.
 
-Hence another WordPress plugin: [Hide WP Engine Legacy Staging](https://wordpress.org/plugins/hide-wp-engine-legacy-staging/). It simply hides the Legacy Staging links form with the WordPress dashboard, which will reduce confusion and hopefully avoid deploying to the wrong staging copy (it has been known...). All the details are on the plugin page. If it helps, or if you get any issues, do let me know.
+Hence another WordPress plugin: [Hide WP Engine Legacy Staging](https://wordpress.org/plugins/hide-wp-engine-legacy-staging/). It simply hides the Legacy Staging links from within the WordPress dashboard, which will reduce confusion and hopefully avoid deploying to the wrong staging copy (it has been known...). All the details are on the plugin page. If it helps, or if you get any issues, do let me know.
 
 By the way, [Dominik Schilling's](https://twitter.com/ocean90) [plugin deploy script](https://github.com/ocean90/svn2git-tools/blob/master/automated-wordpress-plugin-deployment/deploy.sh) takes the pain out of using interacting with SVN :)
 
-* We found out this week that their migration / backup restore tool chokes on DB stored procedures. Sometimes it _fails_ but actually says it suceeds, and sometimes the other way round. But either way it won't copy the stored precedure.
+<hr>
+
+We found out this week that WPE's migration / backup restore tool chokes on DB stored procedures. Sometimes it _fails_ but actually says it suceeds, and sometimes the other way round. But either way it won't copy the stored precedure.
