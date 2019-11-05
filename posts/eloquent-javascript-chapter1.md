@@ -1,6 +1,6 @@
 ---
 title: 'Eloquent JavaScript Chapter 1'
-date: 2019-11-5
+date: 2019-11-05
 ---
 Eloquent JavaScript by Marijn Haverbeke is a book I’ve had for about two years, and it’s about two years since I should have started reading it. But I did so tonight. 
 
